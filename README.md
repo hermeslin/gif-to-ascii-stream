@@ -5,7 +5,7 @@ convert gif to ascii art and show on your terminal
 ![ascii gif art](https://github.com/hermeslin/gif-to-ascii-stream/blob/master/happy.gif)
 
 ## install
-```js
+```sh
 yarn install
 ```
 
@@ -14,20 +14,20 @@ yarn install
 
 
 2. prepare gif
-```js
+```sh
 yarn run prepare <your-gif-file-name>
 ```
 or use builtin gifs `happy.gif` or `giphy.gif`
-```js
+```sh
 yarn run prepare happy
 ```
 
 3. start web server
-```js
+```sh
 yarn run start
 ```
 
 4. use curl to get ascii art animate
-```js
+```sh
 curl http://localhost:4321/happy
 ```
