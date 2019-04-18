@@ -3,17 +3,14 @@
 
 const PAGE_BREAK = '\x1B[2J\x1B[H';
 
-const makeFrame = content => (
-  `${PAGE_BREAK}${content}`
-);
-
 const delay = async millisec => new Promise((resolve) => {
   setTimeout(() => resolve(), millisec);
 });
 
 export default async (frames, stream) => {
   // push content into stream
-  while (true) {
+  const infinity = true;
+  while (infinity) {
     for (const frame of frames) {
       stream.push(PAGE_BREAK);
       await delay(110);
