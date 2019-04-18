@@ -15,8 +15,9 @@ export default async (frames, stream) => {
   // push content into stream
   while (true) {
     for (const frame of frames) {
-      stream.push(makeFrame(frame.content));
-      await delay(210);
+      stream.push(PAGE_BREAK);
+      await delay(110);
+      stream.push(frame.content);
     }
   }
 };
