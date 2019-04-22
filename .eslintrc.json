@@ -19,6 +19,14 @@
     "indent": [
       "error",
       2
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_read"
+        ]
+      }
     ]
   }
 }

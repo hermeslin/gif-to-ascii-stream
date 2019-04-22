@@ -13,13 +13,13 @@ yarn install
 1. copy the gif which you want to convert into `./assets/gif/` folder, or you can use the builtin gifs `happy.gif` or `giphy.gif`
 
 
-2. prepare gif
+2. extract gif
 ```sh
-yarn run prepare <your-gif-file-name>
+yarn run extract <your-gif-file-name>
 ```
 or use builtin gifs `happy.gif` or `giphy.gif`
 ```sh
-yarn run prepare happy
+yarn run extract happy
 ```
 
 3. start web server
