@@ -63,3 +63,4 @@ typings/
 # and others
 dist/
 assets/extract/
+.DS_Store
