@@ -13,8 +13,8 @@ export default async (frames, stream) => {
   while (infinity) {
     for (const frame of frames) {
       stream.push(PAGE_BREAK);
-      await delay(110);
       stream.push(frame.content);
+      await delay(110);
     }
   }
 };
