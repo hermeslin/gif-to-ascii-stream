@@ -8,10 +8,12 @@
     "extract": "npx babel-node src/prepareGif.js",
     "build": "babel src --out-dir dist",
     "serve": "node dist/index.js",
-    "lint": "./node_modules/.bin/eslint ./src/**"
+    "lint": "./node_modules/.bin/eslint ./src/**",
+    "guardian-of-env": "./node_modules/.bin/guardian-of-env --strict .env .env.example"
   },
   "pre-commit": [
-    "lint"
+    "lint",
+    "guardian-of-env"
   ],
   "dependencies": {
     "app-root-path": "^2.2.1",
@@ -33,6 +35,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
+    "guardian-of-env": "^1.1.1",
     "nodemon": "^1.18.11",
     "pre-commit": "^1.2.2"
   }
