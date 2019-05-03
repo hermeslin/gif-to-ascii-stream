@@ -35,7 +35,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "guardian-of-env": "^1.1.1",
+    "guardian-of-env": "^1.1.3",
     "nodemon": "^1.18.11",
     "pre-commit": "^1.2.2"
   }
