@@ -24,7 +24,7 @@
     "fast-glob": "^2.2.6",
     "gif-extract-frames": "^1.0.2",
     "image-to-ascii": "^3.0.12",
-    "log4js": "^4.1.0"
+    "log4js": "^6.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
