@@ -20,7 +20,7 @@
     "async-mkdirp": "^1.2.7",
     "bluebird": "^3.5.4",
     "dotenv": "^7.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fast-glob": "^2.2.6",
     "gif-extract-frames": "^1.0.2",
     "image-to-ascii": "^3.0.12",
